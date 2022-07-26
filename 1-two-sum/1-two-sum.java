@@ -31,3 +31,6 @@ class Solution {
 //             }
 //         }
 //         return null;
+
+
+//M2 - Hash map, check if the complement exists in the map or not O(n)
