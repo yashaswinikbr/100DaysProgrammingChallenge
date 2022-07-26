@@ -56,4 +56,8 @@ class Solution {
 //              answer[i]=L[i]*R[i];
 //          }
 //     return answer;
+
+
+// M3- do prefixProd in answer array and overwrite with answer[i]*R
+//O(1) space, O(n) time
    
