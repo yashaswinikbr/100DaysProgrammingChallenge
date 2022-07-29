@@ -1,6 +1,6 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) { 
-         Integer[] chars = new Integer[128];
+         Integer[] chars = new Integer[128];  // check M3 and M4
 
         int left = 0;
         int right = 0;
