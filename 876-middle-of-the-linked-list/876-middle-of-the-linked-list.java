@@ -22,13 +22,12 @@ class Solution {
         else
             midpos=count/2 + 1;
         int c=0;
-        temp = head;
         while(c<midpos)
         {
-          temp=temp.next; 
+          head=head.next; 
             c++;
         }
-        return temp;
+        return head;
     }
 }
 
