@@ -10,6 +10,7 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+       //Iterative
         ListNode p1=list1;
         ListNode p2=list2;
         ListNode head;
@@ -61,3 +62,5 @@ class Solution {
     return head;
     }
 }
+
+// M2- recursive
