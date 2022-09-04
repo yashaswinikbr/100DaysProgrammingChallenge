@@ -16,6 +16,8 @@
 class Solution {
     
     public int minDepth(TreeNode root) {
+        
+        //The intuitive approach is to solve the problem by recursion. Here we //demonstrate an example with the DFS (Depth First Search) strategy.
          if(root==null) return 0;
          if(root.left==null && root.right==null)
              return 1;
